@@ -59,7 +59,7 @@ services:
     healthcheck:
       test:
       - CMD-SHELL
-      - mysqladmin ping -h localhost --password=123
+      - mysqladmin ping -h localhost --password=123456789test
       interval: 1s
       retries: 15
     image: mariadb:10.6
